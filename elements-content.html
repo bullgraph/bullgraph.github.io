@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from finestwp.co/demos/html/metsys/elements-content.html by HTTrack Website Copier/3.x [XR&CO'2017], Thu, 24 Nov 2022 22:41:09 GMT -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Metsys Content </title>
+  <link rel="shortcut icon" href="image/favicon/favicon.png" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fonts/fontawesome-5/css/all.css">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="plugins/aos/aos.min.css">
+  <link rel="stylesheet" href="plugins/fancybox/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="plugins/slick/slick.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <!-- Custom stylesheet -->
+</head>
+
+<body data-theme="light">
+  <div class="site-wrapper position-relative overflow-hidden ">
+    <!-- Clean The Code And Hop in -->
+    <div id="loading">
+      <div class="preloader">
+        <svg version="1.1" id="L9" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 200 200" enable-background="new 0 0 0 0" xml:space="preserve">
+          <circle cx="20" cy="50" r="8" fill="#FF4B36">
+            <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 50; 0 0" begin="0" dur="1.2s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="50" cy="50" r="8" fill="#FF713B">
+            <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 50; 0 0" begin="0.2s" dur="1.2s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="80" cy="50" r="8" fill="#FF713B">
+            <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 50; 0 0" begin="0.4s" dur="1.2s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="110" cy="50" r="8" fill="#FF873D">
+            <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 50; 0 0" begin="0.6s" dur="1.2s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="140" cy="50" r="8" fill="#FF873D">
+            <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 50; 0 0" begin="0.8s" dur="1.2s" repeatCount="indefinite" />
+          </circle>
+          <circle cx="170" cy="50" r="8" fill="#FF9C40">
+            <animateTransform attributeType="xml" attributeName="transform" type="translate" values="0 0; 0 50; 0 0" begin="1s" dur="1.2s" repeatCount="indefinite" />
+          </circle>
+        </svg>
+      </div>
+    </div>
+    <!-- Header Area -->
+    <header class="site-header site-header--menu-right site-header">
+      <div class="container">
+        <nav class="navbar site-navbar offcanvas-active navbar-expand-lg  px-lg-2 px-0 pt-lg-3 pt-7">
+          <!-- Brand Logo-->
+          <div class="brand-logo pt-1">
+            <a href="#">
+              <!-- light version logo (logo must be black)-->
+              <img src="image/logo/logo-2.png" alt="image" class="light-version-logo">
+              <!-- Dark version logo (logo must be White)-->
+              <img src="image/logo/logo-1.png" alt="image" class="dark-version-logo">
+            </a>
+          </div>
+          <div class="collapse navbar-collapse" id="mobile-menu">
+            <div class="navbar-nav-wrapper">
+              <ul class="navbar-nav main-menu">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle gr-toggle-arrow" id="navbarDropdown" href="#features" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Demos <i class="fas fa-angle-down"></i></a>
+                  <ul class="gr-menu-dropdown dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li class="drop-menu-item">
+                      <a href="index.html">
+                        Landing 1
+                      </a>
+                    </li>
+                    <li class="drop-menu-item">
+                      <a href="index-2.html">
+                        Landing 2
+                      </a>
+                    </li>
+                    <li class="drop-menu-item">
+                      <a href="index-3.html">
+                        Landing 3
+                      </a>
+                    </li>
+                    <li class="drop-menu-item">
+                      <a href="index-4.html">
+                        Landing 4
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle gr-toggle-arrow" id="navbarDropdown2" href="#features" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <i class="fas fa-angle-down"></i></a>
+                  <ul class="gr-menu-dropdown dropdown-menu" aria-labelledby="navbarDropdown2">
+                    <li class="drop-menu-item">
+                      <a href="about.html">
+                        About us
+                      </a>
+                    </li>
+                    <li class="drop-menu-item dropdown">
+                      <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown3" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Blog
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="gr-menu-dropdown dropdown-menu dropdown-right" aria-labelledby="navbarDropdown3">
+                        <li class="drop-menu-item">
+                          <a href="blog-left-sidebar.html">
+                            Blog Left Sidebar
+                          </a>
+                        </li>
+                        <li class="drop-menu-item">
+                          <a href="blog-right-sidebar.html">
+                            Blog Right Sidebar
+                          </a>
+                        </li>
+                        <li class="drop-menu-item">
+                          <a href="blog-regular.html">
+                            Blog Regular
+                          </a>
+                        </li>
+                        <li class="drop-menu-item">
+                          <a href="blog-details.html">
+                            Blog Details
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="drop-menu-item dropdown">
+                      <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown4" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Careers
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="gr-menu-dropdown dropdown-menu dropdown-right" aria-labelledby="navbarDropdown4">
+                        <li class="drop-menu-item">
+                          <a href="career.html">
+                            Career
+                          </a>
+                        </li>
+                        <li class="drop-menu-item">
+                          <a href="career-details.html">
+                            Career Details
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="drop-menu-item dropdown">
+                      <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown5" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pricing
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="gr-menu-dropdown dropdown-menu dropdown-right" aria-labelledby="navbarDropdown5">
+                        <li class="drop-menu-item">
+                          <a href="pricing-1.html">
+                            Pricing 01
+                          </a>
+                        </li>
+                        <li class="drop-menu-item">
+                          <a href="pricing-2.html">
+                            Pricing 02
+                          </a>
+                        </li>
+                        <li class="drop-menu-item">
+                          <a href="pricing-3.html">
+                            Pricing 03
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="drop-menu-item dropdown">
+                      <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown6" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="gr-menu-dropdown dropdown-menu dropdown-right" aria-labelledby="navbarDropdown6">
+                        <li class="drop-menu-item">
+                          <a href="contact.html">
+                            Contact 01
+                          </a>
+                        </li>
+                        <li class="drop-menu-item">
+                          <a href="contact-2.html">
+                            Contact 02
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="drop-menu-item dropdown">
+                      <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown7" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Account
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="gr-menu-dropdown dropdown-menu dropdown-right" aria-labelledby="navbarDropdown7">
+                        <li class="drop-menu-item">
+                          <a href="sign-in.html">
+                            Sign In
+                          </a>
+                        </li>
+                        <li class="drop-menu-item">
+                          <a href="sign-up.html">
+                            Sign Up
+                          </a>
+                        </li>
+                        <li class="drop-menu-item">
+                          <a href="reset-pass.html">
+                            Reset Password
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="drop-menu-item dropdown">
+                      <a class="dropdown-toggle gr-toggle-arrow" id="navbarDropdown8" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Utitlity
+                        <i class="fas fa-angle-down"></i>
+                      </a>
+                      <ul class="gr-menu-dropdown dropdown-menu dropdown-right" aria-labelledby="navbarDropdown8">
+                        <li class="drop-menu-item">
+                          <a href="faq.html">
+                            FAQ
+                          </a>
+                        </li>
+                        <li class="drop-menu-item">
+                          <a href="terms-conditions.html">
+                            Terms & Conditions
+                          </a>
+                        </li>
+                        <li class="drop-menu-item">
+                          <a href="testimonial.html">
+                            Testimonial
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown dropdown-mega ">
+                  <a class="nav-link dropdown-toggle gr-toggle-arrow" id="navbarDropdown10" href="#features" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Elements <i class="fas fa-angle-down"></i></a>
+                  <div class="gr-megamenu-dropdown  megadropdown-center  dropdown-menu d-lg-flex" aria-labelledby="navbarDropdown10">
+                    <div class="col-lg-5 pl-0 d-none d-lg-flex align-items-center">
+                      <a href="../../../../external.html?link=http://07-temp-metsys.netlify.com/" class="d-block dropdown-image-block h-100 w-100 rounded-sm bg-image overflow-hidden mr-xl-12" style="background-image: url(image/about/about-content-2-img.png)">
+                      </a>
+                    </div>
+                    <ul class="col-lg-7 col-xl-6 row-lg list-unstyled py-lg-7">
+                      <li class="col-lg-4">
+                        <div class="single-dropdown-block">
+                          <a href="elements-header.html" class="mega-drop-menu-item">Headers</a>
+                          <a href="elements-hero-area.html" class="mega-drop-menu-item">Hero Area</a>
+                          <a href="elements-cards.html" class="mega-drop-menu-item">Cards</a>
+                          <a href="elements-widgets.html" class="mega-drop-menu-item">Widgets</a>
+                          <a href="elements-content.html" class="mega-drop-menu-item">Content</a>
+                        </div>
+                      </li>
+                      <li class="col-lg-4">
+                        <div class="single-dropdown-block">
+                          <a href="elements-pricing.html" class="mega-drop-menu-item">Pricing</a>
+                          <a href="elements-slider.html" class="mega-drop-menu-item">Slider</a>
+                          <a href="elements-accordion.html" class="mega-drop-menu-item">Accordion</a>
+                          <a href="elements-features.html" class="mega-drop-menu-item">Features</a>
+                          <a href="elements-tabs.html" class="mega-drop-menu-item">Tabs</a>
+                        </div>
+                      </li>
+                      <li class="col-lg-4">
+                        <div class="single-dropdown-block">
+                          <a href="elements-faq.html" class="mega-drop-menu-item">FAQ</a>
+                          <a href="elements-cta.html" class="mega-drop-menu-item">CTA</a>
+                          <a href="elements-footer.html" class="mega-drop-menu-item">Footer</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../../../../external.html?link=https://uxtheme.net/product-support" role="button" aria-expanded="false">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <button class="d-block d-lg-none offcanvas-btn-close" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="true" aria-label="Toggle navigation">
+              <i class="gr-cross-icon"></i>
+            </button>
+          </div>
+          <div class="header-btn pl-lg-8 ml-auto">
+            <a class="btn header-button header-btn-1 mr-lg-0 mr-3" href="#">
+              GET STARTED
+            </a>
+          </div>
+          <!-- Mobile Menu Hamburger-->
+          <button class="navbar-toggler btn-close-off-canvas  hamburger-icon border-0" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <i class="icon icon-simple-remove icon-close"></i> -->
+            <span class="hamburger hamburger--squeeze js-hamburger">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+            </span>
+            </span>
+          </button>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </header>
+    <!-- navbar- -->
+    <div class="bg-image pt-md-26 pb-md-23 pt-22 pb-15" style="background-image: url(image/about/about-bg.png);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-lg-8 col-md-10 col-sm-10">
+            <div class="text-center">
+              <h2 class="font-size-11 text-white heading-letter-spacing-4 mb-10">Content</h2>
+              <ul class="list-unstyled d-flex flex-wrap justify-content-center mx-n1">
+                <li class="mx-1 text-white font-size-3">Elements</li>
+                <li class="mx-1 text-white font-size-3">/</li>
+                <li class="mx-1 text-white font-size-3">Content</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="bg-white py-lg-25 py-md-19 py-15">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center mb-15">
+              <h2 class="text-cod-gray opacity-7 font-size-6 text-uppercase">Style 01</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-5">
+            <div class="row">
+              <div class="col-lg-12 col-md-7">
+                <h2 class="font-size-10 heading-default-color mb-lg-15 mb-9 mt-n4 heading-letter-spacing-3">Great idea starts in
+                  your inbox</h2>
+              </div>
+            </div>
+            <div class="widget-tab pr-xl-20">
+              <ul class="row nav border-0 nav-tabs content12-nav-tabs mb-n9 pr-xxl-28 pr-lg-0 mx-n2">
+                <li class="col-xl-12 col-lg-12 col-md-6 nav-item mb-9 ">
+                  <a class="nav-link rounded-5 bg-primary p-0 active" data-toggle="tab" href="#home">
+                    <div class="widget d-flex align-items-center bg-white py-4 py-lg-5 px-sm-7 px-4 rounded-5">
+                      <span class="d-inline-flex text-primary circle-53 bg-primary-op15 text-center font-size-5 mr-7"><i
+                      class="fas fa-laptop-code"></i></span><span
+                    class="font-size-6 font-weight-bold  text-cod-gray font-family-2">Digital
+                    Agency</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-12 col-lg-12 col-md-6 nav-item mb-9  ">
+                  <a class="nav-link rounded-5 bg-mantis p-0" data-toggle="tab" href="#menu1">
+                    <div class="widget d-flex align-items-center bg-white py-4 py-lg-5  px-sm-7 px-4 rounded-5">
+                      <span class="d-inline-flex text-mantis circle-53 bg-mantis-op15 text-center font-size-5 mr-7"><i
+                      class="fas fa-lock"></i></span><span class="font-size-6 font-weight-bold  text-cod-gray font-family-2">Security
+                    Management</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-12 col-lg-12 col-md-6 nav-item mb-9 ">
+                  <a class="nav-link rounded-5 bg-red-orange p-0" data-toggle="tab" href="#menu2">
+                    <div class="widget d-flex align-items-center bg-white py-4 py-lg-5  px-sm-7 px-4 rounded-5">
+                      <span
+                    class="d-inline-flex text-red-orange circle-53 bg-red-orange-op15 text-center font-size-5 mr-7"><i
+                      class="fas fa-calendar-alt"></i></span><span
+                    class="font-size-6 font-weight-bold  text-cod-gray font-family-2">Email
+                    Marketing</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="col-xl-12 col-lg-12 col-md-6 nav-item mb-9 ">
+                  <a class="nav-link rounded-5 bg-cod-gray p-0" data-toggle="tab" href="#menu3">
+                    <div class="widget d-flex align-items-center bg-white py-4 py-lg-5  px-sm-7 px-4 rounded-5">
+                      <span class="d-inline-flex text-cod-gray circle-53 bg-cod-gray-op15 text-center font-size-5 mr-7"><i
+                      class="fas fa-stream"></i></span><span class="font-size-6 font-weight-bold  text-cod-gray font-family-2">SEO
+                    Optimization</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12">
+            <div class="tab-content mt-lg-0 mt-12 pl-md-5">
+              <div id="home" class="tab-pane  active">
+                <p class="font-size-5 light-mode-texts mb-md-16 mb-13 pr-xl-11 pr-lg-0 pr-md-22">It’s easy for visitors to get stuck on the
+                  website where
+                  things that matter to us are a maze to them. Indeed, they don’t care who we are or how good the service we
+                  provide. </p>
+                <img class="w-100" src="image/landing-1/c1.png" alt="image">
+              </div>
+              <div id="menu1" class="tab-pane fade">
+                <p class="font-size-5 light-mode-texts mb-md-16 mb-13 pr-xl-11 pr-lg-0 pr-md-22">It’s easy for visitors to get stuck on the
+                  website where
+                  things that matter to us are a maze to them. Indeed, they don’t care who we are or how good the service we
+                  provide. </p>
+                <img class="w-100" src="image/landing-1/c2.png" alt="image">
+              </div>
+              <div id="menu2" class="tab-pane fade">
+                <p class="font-size-5 light-mode-texts mb-md-16 mb-13 pr-xl-11 pr-lg-0 pr-md-22">It’s easy for visitors to get stuck on the
+                  website where
+                  things that matter to us are a maze to them. Indeed, they don’t care who we are or how good the service we
+                  provide. </p>
+                <img class="w-100" src="image/landing-1/c3.png" alt="image">
+              </div>
+              <div id="menu3" class="tab-pane fade">
+                <p class="font-size-5 light-mode-texts mb-md-16 mb-13 pr-xl-11 pr-lg-0 pr-md-22">It’s easy for visitors to get stuck on the
+                  website where
+                  things that matter to us are a maze to them. Indeed, they don’t care who we are or how good the service we
+                  provide. </p>
+                <img class="w-100" src="image/landing-1/c4.png" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Content 2 section -->
+    <section class="bg-selago position-relative z-index-1 py-lg-25 py-md-19 py-15">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center mb-15">
+              <h2 class="text-cod-gray opacity-7 font-size-6 text-uppercase">Style 02</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-7 col-sm-8 col-xs-8 col-10">
+            <div class="content-image-group-1">
+              <div class="image-1 ml-8">
+                <img src="image/landing-1/content-1.png" alt="img">
+              </div>
+              <div class="image-2 rounded-10"></div>
+              <div class="image-3 lax" data-lax-preset="spin-360">
+                <img class="mw-100" src="image/landing-1/circle-shape.png" alt="img">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-8 col-sm-11">
+            <div class="mt-lg-4 mt-md-9 mt-9 pl-xl-15 pl-lg-0">
+              <div class="text-wrapper text-md-left text-center">
+                <h2 class="heading-default-color font-size-10 mb-8 heading-letter-spacing-3 pr-lg-0 pr-md-7">People choose us because of our
+                  service</h2>
+                <p class="light-mode-texts font-size-5 mb-lg-17 mb-md-12 mb-12 pr-xl-14 pr-lg-10 pr-md-6">McKinsey research has shown that 70%
+                  of buying
+                  experiences are based on how the customer feels they have been treated.</p>
+              </div>
+              <div class="mb-n8 pr-xl-10 pr-md-0">
+                <div class="d-md-flex bg-white rounded-10 pt-10 py-8 px-9 mb-8">
+                  <div class="card-icon mr-9 mb-8">
+                    <span class="text-royalblue circle-53 bg-royalblue-op15 text-center font-size-5"><i
+                    class="fas fa-link"></i></span>
+                  </div>
+                  <div class="card-text">
+                    <h6 class="text-cod-gray font-size-6 font-weight-bold mb-4">Shareable Link</h6>
+                    <p class="text-boulder font-size-3 mb-0 mt-6 pr-sm-8">A/B test works best for hypothesis testing and in
+                      cases of digital agency.</p>
+                  </div>
+                </div>
+                <div class="d-md-flex bg-white rounded-10 pt-10 py-8 px-9  mb-8">
+                  <div class="card-icon mr-md-9 mb-8">
+                    <span class="text-jaffa circle-53 bg-jaffa-op15 text-center font-size-5"><i class="fas fa-calendar-alt"></i></span>
+                  </div>
+                  <div class="card-text">
+                    <h6 class="text-cod-gray font-size-6 font-weight-bold mb-4">Schedule Friendly</h6>
+                    <p class="text-boulder font-size-3 mb-0 mt-6 pr-sm-8">A/B test works best for hypothesis testing and in
+                      cases of digital agency.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Content-1  Area -->
+    <section class="bg-white pt-lg-28 pb-lg-31 py-md-19 pt-21 pb-15">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center pb-20">
+              <h2 class="text-cod-gray opacity-7 font-size-6 text-uppercase">Style 03</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-md-center justify-content-md-start justify-content-center">
+          <div class="col-xl-6 col-lg-7 col-md-7 col-sm-12 order-md-1 order-2">
+            <div class="content mt-md-0 mt-19" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+              <h6 class="text-uppercase text-red-orange font-size-2 font-family-2 mb-6">popular</h6>
+              <h2 class="text-cod-gray font-size-10  mb-6 heading-letter-spacing-3 pr-xl-0 pr-lg-10">Creativity &
+                experience,
+                our greatest tools</h2>
+              <p class="text-boulder font-size-5 mb-0 pr-lg-21 pr-md-12 mt-8">We will tell you about the technologies that
+                we applied in
+                this work, the difficulties encountered, the solutions found and the outcomes. </p>
+            </div>
+          </div>
+          <div class="offset-xl-1 col-xl-4 col-lg-5 col-md-5 col-sm-8 col-xs-8 col-12 order-md-2 order-1">
+            <div class="content-image-group-2 position-relative z-index-1 pl-lg-6" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+              <div class="content-1-main-image">
+                <img src="image/landing-2/dose-juice.png" alt="image">
+              </div>
+              <div class="shape-1">
+                <img src="image/landing-2/dot_pattern.png" alt="image">
+              </div>
+              <div class="shape-2">
+                <img src="image/landing-2/le-yien.png" alt="image">
+              </div>
+              <div class="shape-3">
+                <img src="image/landing-2/Dot_pattern_2.png" alt="image">
+              </div>
+              <div class="shape-4">
+                <img src="image/landing-2/Ellipse_2.png" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Content-2 Area -->
+    <section class="bg-selago py-lg-26 py-md-19 py-15">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center mb-15">
+              <h2 class="text-cod-gray opacity-7 font-size-6 text-uppercase">Style 04</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-md-center justify-content-center">
+          <div class="col-xl-5 col-lg-5 col-md-6 col-sm-8 col-xs-8 col-12">
+            <div class="position-relative" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+              <div class="content-image-group-3">
+                <div class="content-2-main-image">
+                  <img class="px-md-6" src="image/landing-2/dose-juice-s.png" alt="image">
+                </div>
+                <div class="position-dot-shape position-absolute">
+                  <img src="image/landing-2/Dot_pattern_2.png" alt="image">
+                </div>
+                <div class="position-card position-absolute responsive-card-scale">
+                  <div class="bg-white rounded-10 shadow-2 py-md-6 px-md-7 py-4 px-4">
+                    <div class="d-flex">
+                      <div class="card-icon mt-4">
+                        <span class="bg-red-orange circle-52 font-size-7 text-white mr-7"><i
+                        class="fas fa-chart-bar"></i></span>
+                      </div>
+                      <div class="card-text">
+                        <div class="counter-wrapper">
+                          <h2 class="font-size-8 text-cod-gray">
+                            <span class="counter">87</span>%
+                          </h2>
+                        </div>
+                        <p class="text-boulder font-size-3 mb-0">Growth rate increasing</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="offset-xl-2 col-xl-5 offset-lg-1 col-lg-6 col-md-6">
+            <div class="content mt-md-0 mt-9" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+              <div class="text-widget">
+                <h2 class="text-cod-gray font-size-10  mb-6 heading-letter-spacing-3 pr-xl-6 pr-lg-16">We match
+                  talent
+                  with business</h2>
+                <p class="text-boulder font-size-5 mt-8 mb-7 pr-xl-9 pr-lg-13">We will tell you about the
+                  technologies that we applied in
+                  this work, the difficulties encountered and the solutions. </p>
+              </div>
+              <ul class="pt-6 list-unstyled pr-xl-15 pr-lg-17 mb-n8">
+                <li class="d-inline-flex text-cod-gray font-size-5 mb-8"><span
+                class="bg-red-orange circle-30 font-size-2 text-white mr-7"><i class="fas fa-check"></i></span>Clean,
+                  modern design, can be used for any type of website</li>
+                <li class="d-inline-flex text-cod-gray font-size-5 mb-8"><span
+                class="bg-red-orange circle-30 font-size-2 text-white mr-7"><i class="fas fa-check"></i></span>The new
+                  ultimate multi-purpose theme</li>
+                <li class="d-inline-flex text-cod-gray font-size-5 mb-8"><span
+                class="bg-red-orange circle-30 font-size-2 text-white mr-7"><i class="fas fa-check"></i></span>User
+                  experience tested and improved</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Content-1  Area -->
+    <section class="bg-white position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center mt-15">
+              <h2 class="text-cod-gray opacity-7 font-size-6 text-uppercase mb-0">Style 05</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row  justify-content-center">
+          <div class="col-xl-6 col-lg-5 col-md-8">
+            <div class="content-image-group-4 position-relative pt-lg-25 pt-md-19 pt-15 pb-md-0">
+              <div class="content-img position-relative z-index-1">
+                <img src="image/landing-3/content-mobile.png" alt="image">
+              </div>
+              <div class="shape-img position-absolute">
+                <img src="image/landing-3/content-circle.png" alt="image">
+              </div>
+              <div class="position-card position-absolute shadow-4 bg-red-orange rounded-15 shadow-2 py-md-8 pl-md-8 pr-md-6 py-6 pl-6 pr-5">
+                <div class="d-flex align-items-center">
+                  <div class="card-icon">
+                    <span class="bg-white text-red-orange square-59 rounded-10 font-size-6 text-white mr-7"><i
+                    class="fas fa-bell"></i></span>
+                  </div>
+                  <div class="card-text">
+                    <h6 class="font-size-5 line-height-1p2 text-white mb-1">New Feature</h6>
+                    <p class="text-white font-size-3 mb-0">You’ve received a new notification</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-7 col-md-9">
+            <div class="content-position-center pl-lg-14 py-lg-0 pt-md-13 pb-md-19 py-15">
+              <h6 class="font-size-2 text-uppercase text-primary mb-md-9 mb-6">Get the best solution</h6>
+              <h2 class="text-cod-gray font-size-10 heading-letter-spacing-3 mb-9 pr-lg-0 pr-md-18">Thousands of Mobile Apps
+                Built by Metsys.
+              </h2>
+              <p class="font-size-5 text-boulder mb-0">Minimize time consuming distractions, level up your team’s
+                productivity by letting finity handle your comm. Our focus is always on finding the best people to work
+                with.</p>
+              <button class="btn btn-lg-s text-uppercase bg-christine text-white font-family-2 mt-md-11 mt-9">Get
+                Started</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Content-2 Area -->
+    <section class="bg-selago">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center mt-15">
+              <h2 class="text-cod-gray opacity-7 font-size-6 text-uppercase mb-0">Style 06</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xl-6 col-lg-7 col-md-9 order-lg-1 order-2">
+            <div class="content-position-center pr-lg-8 pt-lg-0 pt-md-15 pb-md-19 pb-lg-0 pt-15 mb-md-0 mb-15">
+              <h6 class="font-size-2 text-uppercase text-primary mb-md-9 mb-6">New Feature</h6>
+              <h2 class="text-cod-gray font-size-10 heading-letter-spacing-3 mb-9 pr-lg-0 pr-md-11">Connect and share with
+                right audience of
+                Metsys.</h2>
+              <p class="font-size-5 text-boulder mb-0">Minimize time consuming distractions, level up your team’s
+                productivity by letting finity handle your comm. Our focus is always on finding the best people to work
+                with.</p>
+              <ul class="pt-6 list-unstyled mb-n8 mt-9">
+                <li class="d-inline-flex text-cod-gray font-size-5 mb-8"><span
+                class="bg-sunshade circle-30 font-size-2 text-white mr-7"><i class="fas fa-check"></i></span>Based on
+                  audience and user needs</li>
+                <li class="d-inline-flex text-cod-gray font-size-5 mb-8"><span
+                class="bg-sunshade circle-30 font-size-2 text-white mr-7"><i class="fas fa-check"></i></span>Designed
+                  with simplicity and better UX</li>
+                <li class="d-inline-flex text-cod-gray font-size-5 mb-8"><span
+                class="bg-sunshade circle-30 font-size-2 text-white mr-7"><i class="fas fa-check"></i></span>User
+                  experience tested and improved</li>
+              </ul>
+            </div>
+          </div>
+          <div class="offset-xl-1 col-xl-4 col-lg-5 col-md-8 order-lg-2 order-1">
+            <div class="content-image-group-5 position-relative z-index-1 pl-lg-5 pt-md-19 pt-lg-25 pt-15">
+              <div class="content-img pl-lg-7">
+                <img src="image/landing-3/content-2-mobile.png" alt="image">
+              </div>
+              <div class="shape-img position-absolute">
+                <img src="image/landing-3/content-2-circle.png" alt="image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Content-1 Area -->
+    <section class="bg-white py-lg-26 py-md-19 py-15">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center mb-15">
+              <h2 class="text-cod-gray opacity-7 font-size-6 text-uppercase">Style 07</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-md-center justify-content-center">
+          <div class="col-xl-6 col-lg-5 col-md-7 col-sm-8 col-xs-8 col-12">
+            <div class="l4-content-4-image-group position-relative ml-lg-13">
+              <div class="bg-shape">
+                <img src="image/landing-4/shape-4layer.png" alt="image">
+              </div>
+              <div class="image-1">
+                <img src="image/landing-4/people-1.png" alt="image">
+              </div>
+              <div class="image-2">
+                <img src="image/landing-4/people-2.png" alt="image">
+              </div>
+              <div class="image-3">
+                <img src="image/landing-4/people-3.png" alt="image">
+              </div>
+              <div class="image-4">
+                <img src="image/landing-4/people-4.png" alt="image">
+              </div>
+              <div class="image-5">
+                <img src="image/landing-4/people-5.png" alt="image">
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-7 col-md-9">
+            <div class="content pr-lg-8 mt-12 mt-md-14 mt-lg-0">
+              <h6 class="font-size-2 text-uppercase text-red-orange mb-md-8 mb-6">Get the most out of your courses</h6>
+              <h2 class="text-cod-gray font-size-10 heading-letter-spacing-3 mb-8 pr-lg-0 pr-md-11">Connect and share your
+                experiences with others.</h2>
+              <p class="font-size-5 text-boulder mb-0">Minimize time consuming distractions, level up your team’s
+                productivity by letting finity handle your comm. Our focus is always on finding the best people to work
+                with.</p>
+              <ul class="pt-6 list-unstyled mb-n8 mt-9">
+                <li class="d-inline-flex text-cod-gray font-size-5 mb-8"><span
+                class="bg-chateaugreen circle-30 font-size-2 text-white mr-7"><i class="fas fa-check"></i></span>Based
+                  on
+                  audience and user needs</li>
+                <li class="d-inline-flex text-cod-gray font-size-5 mb-8"><span
+                class="bg-chateaugreen circle-30 font-size-2 text-white mr-7"><i
+                  class="fas fa-check"></i></span>Designed
+                  with simplicity and better UX</li>
+                <li class="d-inline-flex text-cod-gray font-size-5 mb-8"><span
+                class="bg-chateaugreen circle-30 font-size-2 text-white mr-7"><i class="fas fa-check"></i></span>User
+                  experience tested and improved</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Content-2 Area -->
+    <section class="bg-selago position-relative py-lg-26 py-md-19 pt-14 pb-15">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center pb-21">
+              <h2 class="text-cod-gray opacity-7 font-size-6 text-uppercase">Style 08</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xl-6 col-lg-6 col-md-9">
+            <div class="content pr-lg-8">
+              <h6 class="font-size-2 text-uppercase text-red-orange mb-md-8 mb-6">We’ve created the easiest solution</h6>
+              <h2 class="text-cod-gray font-size-10 heading-letter-spacing-3 mb-8 pr-lg-0 pr-md-15 pr-sm-21">Join classes
+                from
+                anywhere, any device.</h2>
+              <p class="font-size-5 text-boulder mb-0">Minimize time consuming distractions, level up your team’s
+                productivity by letting finity handle your comm. Our focus is always on finding the best people to work
+                with.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5 col-xs-6 col-9 mt-lg-0 mt-md-19 mt-13">
+            <div class="l4-content-5-image-group position-relative">
+              <img class="main-image w-100" src="image/landing-4/content-5-long-img.png" alt="image">
+              <img class="round-shape" src="image/landing-4/l4-red-round.png" alt="image">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5 col-xs-6 col-9 mt-9 mt-md-12 mt-lg-0">
+            <div class="content-5-imgage">
+              <img class="w-100" src="image/landing-4/content-5-short-img.png" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Content Area -->
+    <div class="bg-white py-lg-25 py-md-19 py-15">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center mb-18">
+              <h2 class="text-cod-gray opacity-7 font-size-6 text-uppercase">Style 09</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-lg-6 col-md-7">
+            <div class="content pr-xl-10">
+              <h6 class="font-size-2 text-uppercase text-red-orange mb-md-8 mb-6 ">We’ve created the easiest solution</h6>
+              <h2 class="text-cod-gray font-size-10 heading-letter-spacing-3 mb-8 pr-xl-18 pr-md-0 pr-sm-15">Our mission is
+                to make your life easier.</h2>
+              <p class="font-size-5 text-boulder mb-0">Minimize time consuming distractions, level up your team’s
+                productivity by letting Metsys team handle your comm. Our focus is always on finding the best people to work
+                with.</p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-5 mt-9 mt-md-0">
+            <div class="content-image">
+              <img class="main-image w-100 rounded-10" src="image/about/about-content-2-img.png" alt="image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Content Area -->
+    <section class="bg-selago py-lg-24 pt-md-18 pb-md-15 pt-15 pb-10">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center mb-18">
+              <h2 class="text-cod-gray opacity-7 font-size-6 text-uppercase">Style 10</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xl-5 col-lg-5 col-md-8 col-sm-11 order-lg-1 order-2">
+            <div class="content pr-xl-24 pr-lg-8 pr-md-20  pr-sm-0 mt-lg-0  mt-9" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
+              <h2 class="text-cod-gray font-size-10 mb-8 heading-letter-spacing-3 ">
+                Explore life with Metsys team</h2>
+              <p class="font-size-5 text-boulder mb-7">Metsys inc is the premier platform for top companies to buy products
+                of the world’s most talented professionals. </p>
+              <p class="font-size-5 text-boulder  pr-md-10">We're changing how the world works. And you could be part of it.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-7 col-lg-7 col-md-9 order-lg-2 order-1">
+            <div class="position-relative" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+              <div class="career-image">
+                <img class="w-100" src="image/career/career-img.png" alt="image">
+              </div>
+              <div class="absolute-center">
+                <a data-fancybox class="bg-red-orange text-white circle-92 video-btn" href="../../../../external.html?link=https://www.youtube.com/embed/9yc1lfFZX-I"><i class="fas fa-play font-size-7"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer position-relative bg-white-lilac pt-lg-19 pb-lg-15 pt-15 pb-12">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="text-center">
+              <a href="#"><img src="image/logo/logo-2.png" alt="logo"></a>
+              <div class="footer-social-links mx-n6 mt-9 d-flex flex-wrap justify-content-center">
+                <a class="text-cod-gray mx-6  " href="#"><i class="fab fa-instagram"></i></a>
+                <a class="text-cod-gray mx-6  " href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="text-cod-gray mx-6  " href="#"><i class="fab fa-google"></i></a>
+              </div>
+            </div>
+            <div class="copyright-text text-center mt-15">
+              <p class="font-size-2 line-height-1p6 text-gray mb-0">©2020 UXTheme, All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="js/vendor.min.js"></script>
+  <!-- Plugin's Scripts -->
+  <script src="plugins/fancybox/jquery.fancybox.min.js"></script>
+  <script src="plugins/aos/aos.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/counter-up/waypoint.js"></script>
+  <script src="plugins/counter-up/jquery.counterup.min.js"></script>
+  <!-- Activation Script -->
+  <script src="js/custom.js"></script>
+</body>
+
+
+<!-- Mirrored from finestwp.co/demos/html/metsys/elements-content.html by HTTrack Website Copier/3.x [XR&CO'2017], Thu, 24 Nov 2022 22:41:09 GMT -->
+</html>
