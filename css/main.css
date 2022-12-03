@@ -4135,8 +4135,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-  background-image: URL("./image/landing-3/footer-bg.jpg");
+  background-image: url("../image/landing-3/footer-bg.jpg")!important;
   background-color:#0D1017;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*# sourceMappingURL=maps/main.css.map */
