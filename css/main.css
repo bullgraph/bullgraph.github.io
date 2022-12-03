@@ -4134,4 +4134,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%;
 }
 
+footer {
+  background-image: URL("../imagem/landing-3/footer-bg.jpg");
+}
+
 /*# sourceMappingURL=maps/main.css.map */
