@@ -4136,8 +4136,9 @@ h1, h2, h3, h4, h5, h6 {
 
 footer {
    background-image: url("../image/footer-bg.png")!important;
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
+   background-position: top center;
 }
 
 /*# sourceMappingURL=maps/main.css.map */
