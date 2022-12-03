@@ -4134,4 +4134,10 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%;
 }
 
+footer {
+   background-image: url("../image/footer-bg.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
 /*# sourceMappingURL=maps/main.css.map */
