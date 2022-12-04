@@ -313,7 +313,9 @@
                 <ul style="margin:-15px 15px -35px 15px!important;padding:0px!important;">
                   <span class="code-box-be">
                     OrderSend (_Symbol,OP_BUYSTOP,Lote,ValorEntrada, 20,<br/>
-                     } else if (OrdenVenda==0) {
+                     } else if (OrdenVenda==0) { <br/>
+                    boll LastStop=false; <br/>
+                    double LastPrice=GetLastDistance(LastStop);<br/>
                   </span>
                 </ul>
               </p>
