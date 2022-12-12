@@ -25,6 +25,29 @@
    .twitter-tweet {border-color: #fff!important;}
    .hero-area-curve:after {background-color:#0D1017!important;}
    .navbar-expand-lg .navbar-collapse {display:none!important;}
+   .hero-rotate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 
+    100% { -moz-transform: rotate(360deg); } 
+}
+@-webkit-keyframes spin { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+@keyframes spin { 
+    100% { 
+        -webkit-transform: rotate(360deg); 
+        transform:rotate(360deg); 
+    } 
+}
   </style>
   <!-- beta -->
   </head>
@@ -219,7 +242,7 @@
     </header>
     <section style="background-color:#0D1017!important;" class=" pt-xl-35 pb-xl-13 pb-lg-0 pb-md-19 pt-md-28  pt-25 pt-xs-27 pb-16 position-relative">
       <div class="container">
-       <div class="abs-shape" style="margin-top:-640px!important;margin-left:-40px!important;margin-bottom:-140px!important"><img src="image/landing-3/planet-header.png" alt="image" /></div>
+       <div class="abs-shape" style="margin-top:-640px!important;margin-left:-40px!important;margin-bottom:-140px!important"><img classe="hero-rotate" src="image/landing-3/planet-header.png" alt="image" /></div>
         <div class="row justify-content-center">
           <div class="col-xl-7 col-lg-8 col-md-11 order-lg-1 order-2" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
             <div class="hero-content text-lg-left text-center pt-lg-10 pb-lg-11 pt-11">
