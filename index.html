@@ -42,7 +42,12 @@
         transform:rotate(360deg); 
     } 
 }
-
+   .hero-floating {animation-name: floating; animation-duration: 3s; animation-iteration-count: infinite; animation-timing-function: ease-in-out;}
+   @keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
   </style>
   <!-- beta -->
   </head>
@@ -251,7 +256,7 @@
             <div class="hero-area-image-group-2 position-relative">
               <img class=" main-image" src="image/landing-3/hero-mobile.png" alt="image">
               <div class="abs-shape round-shape">
-                <img class="" style="width:125px!important;height:auto!important;margin-left:-45px!important;" src="image/landing-3/space-ship.png" alt="image">
+                <img class="hero-floating" style="width:125px!important;height:auto!important;margin-left:-45px!important;" src="image/landing-3/space-ship.png" alt="image">
               </div>
             </div>
           </div>
