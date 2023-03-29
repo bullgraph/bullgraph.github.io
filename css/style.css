@@ -105,7 +105,7 @@ svg.bull path.eyes {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-1px);
+    transform: translateY(-2px);
   }
   100% {
     transform: translateY(0);
