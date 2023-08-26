@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Email Template</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+logotype<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+
+<div id="header" class="header">
+  <div class="row">
+    <div class="col-6">
+      <p class="logotype">Bullgraph</p>
+    </div>
+    <div class="col-6 text-right">
+      <div class="header__action"></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  
+  <div class="page">
+
+    <div class="page__inner">
+      
+      <header class="page__header">
+        <div class="page__title">
+          <h3>TENHA NOSSO SINAL</h3>
+          <h1>DE GRAÇA E PARA SEMPRE</h1>
+          <hr>
+        </div>
+        <div class="page__desc">
+          <h5>Obtenha todas as nossas ordens de compra e venda de forma automatica direto em sua conta de negociação, <span style="text-decoration:underline;color:#183D3D" >sem mensaldades ou taxas de uso.*</span> </h5></div>
+        <p style="margin-top:-15px;margin-bottom:20px;"><h6>Confira alguns de nossos resultados:</h6><iframe frameborder="0" width="100%" height="140" src="https://www.mql5.com/pt/signals/widget/signal/6npv?f=0&t=green"></iframe> </p>
+</header>
+
+<form method='post' action='http://pub.s7.exacttarget.com/llqs3euimk5'>
+        <div class="row row--gutters">
+          <div class="col-6">
+            <label for="textFromName">SEU NOME</label>
+            <input class="input input--full" type="text" id="textFromName" name="textFromName" value="">
+          </div>
+          <div class="col-6">
+            <label for="textFromEmail">SEU EMAIL</label>
+            <input class="input input--full" type="text" id="textFromEmail" name="textFromEmail" value="">
+          </div>
+        </div>
+        <div class="row">
+          <label for="txtEmail">VOCÊ JÁ OPERA NO MAIOR MERCADO DO MUNDO? <span>POR DIA, O MERCADO FOREX MOVIMENTA DE US$5 A US$7 TRILHÕES.</span> </label>
+          <input class="input input--full" type="text" id="txtEmail" name="txtEmail">
+        </div>
+
+        <h5 class="form__subheader">Confira os termos e regras para adquirir nossos sinais de graça:</h5>
+
+        <div id="presets" class="presets row">
+          <div class="preset col-3" data-preset-id="0">Corretora Forex</div>
+          <div class="preset col-3" data-preset-id="1">Configuração da conta</div>
+          <div class="preset col-3" data-preset-id="2">Setup do sinal</div>
+          <div class="preset col-3" data-preset-id="3">riscos</div>
+        </div>
+        
+        <div class="row">
+          <textarea class="textarea textarea--full" placeholder="" id="txtHTML" name="txtHTML"></textarea>
+        </div>
+
+        <input type="hidden" id="txtMsgType" name="txtMsgType" value="team"/>
+
+        <button type="submit" class="btn btn--icon btn--submit">
+          <i></i>
+          <span>Solicitar meus sinais de graça!</span>
+        </button>
+  
+      </form>
+
+
+    </div>
+  </div>
+  
+
+
+</div>
+
+<div id="footer" class="footer">
+  <div class="container container--small">
+    <div class="row">
+      <div class="footer__left col-8">
+        <hr>
+        <p class="footer__text">Gostando dos resultados? <a href="#">Adquira sinais premium</a> e pague somente uma porcentagem dos resultados lucrativos! </p>
+      </div>
+      <div class="col-4 text-right"></div>
+    </div>
+  </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zepto/1.2.0/zepto.min.js"></script>
+<script>
+  (function($){
+
+    var $el = {
+      presets: $('#presets'),
+      preset: $('.preset'),
+
+      form: {
+        textarea: $('#txtHTML')
+      }
+    };
+
+    var messages = [
+      "",
+      "",
+      "",
+      ""
+    ];
+
+    /**
+     * Apply Preset
+     * 
+     * @param  {Element} element 
+     * @param  {Number} i       
+     */
+    applyPreset = function(element, i) {
+      $el.form.textarea.html( messages[i] );
+      $el.presets.find('.preset').removeClass('preset--active')
+      element.addClass('preset--active')
+    }
+
+    // Event binding
+    $el.presets.find('.preset').on('click', function (event) {
+      event.preventDefault()
+
+      var $this = $(this),
+          id    = $this.data('preset-id');
+
+      applyPreset( $this, id );
+
+    })
+
+    // Set default
+    applyPreset( $el.preset.eq(0), 0 );
+
+
+
+
+ 
+  })(Zepto);
+
+
+</script>
+
+
+
+
+
+<!-- Plugins -->
+<!-- <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-528a961d6dc57f1f" async="async"></script> -->
+<script >
+
+</script>
+
+
+ 
+<script src="//localhost:4002/livereload.js?snipver=1" async="" defer=""></script></body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
